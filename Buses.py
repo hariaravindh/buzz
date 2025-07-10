@@ -1,5 +1,5 @@
 def create():
-    f=open("bus.txt","w")
+    f=open("bus.txt","w")  
     ("good day")
     f.write("\n")
     f.write("These are the buses that are associated with our company")
