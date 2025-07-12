@@ -56,4 +56,12 @@
   </ul>
 </section>
 
+---
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=flat-square" alt="Language">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+</p>
+
+---
