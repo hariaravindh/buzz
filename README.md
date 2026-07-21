@@ -76,8 +76,6 @@ Developed as an educational project, BUZZ demonstrates the fundamentals of:
 
 This project was built to explore and understand:
 
-- Relational database design
-- SQL schema creation
 - Python-MySQL connectivity
 - Data storage and retrieval
 - Reservation system workflows
