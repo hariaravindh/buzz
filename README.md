@@ -2,9 +2,6 @@
 
 > A Python and MySQL based Bus Ticket Booking System built to demonstrate database driven application design, ticket reservation workflows and command-line application development.
 
-https://img.shields.io/badge/Python-3.x-blue
-![MySQL](httpsields.io/badge/MySQL-Database-orange
-![License](https://img.shields.io/badge/License-MIT-
 ## Overview
 
 BUZZ is a command line Bus Ticket Booking System that allows users to browse available buses, view routes and manage ticket reservations using a MySQL database backend.
@@ -136,13 +133,18 @@ BUZZ originated as a learning project aimed at understanding how booking systems
 
 The project focuses on core software engineering concepts such as database integration, structured data management, and user interaction through a command-line interface.
 
+## Tools Used
+
+<p align="left">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff" />
+
+</p>
+
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
-See the LICENSE file for details.
+![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 ---
 
