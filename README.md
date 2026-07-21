@@ -1,67 +1,149 @@
-<section style="text-align:center; padding:60px 20px; background:#1a237e; color:#fff;">
-  <h1 style="font-size:2.5em; margin:0; text-align:center;">BUZZ - Bus Booking System</h1>
-  <p style="font-style:italic; margin:15px 0 0; text-align:center;">
-    Booking a ride should feel as seamless as clicking a snap, right ?
-  </p>
-</section>
+# BUZZ 🚌
 
-<section style="max-width:800px; margin:40px auto; padding:0 20px;">
-  <h2 style="text-align:center;">Story - The Why ? </h2>
-  <p>
-    During the lockdown years, my school friend Niranjan and I noticed lack of transparency and transaction control in online bus booking,
-    alongside clunky CLI flows, data conflicts & glitchy reservations and zero rollback safety.
-    As 11th graders with an idealogy for clean code, we built BUZZ, a Python–MySQL app
-    ensuring straight forward reservations, transparent transactions and data integrity.
-  </p>
-</section>
+> A Python and MySQL based Bus Ticket Booking System built to demonstrate database driven application design, ticket reservation workflows and command-line application development.
 
-<section style="max-width:800px; margin:40px auto; padding:0 20px;">
-  <h2> Core Features & Architecture</h2>
-  <ul style="list-style:none; padding:0;">
-    <li style="padding:10px; border-left:4px solid #1a237e;">
-      <strong>Smart CLI:</strong>
-      <code>book</code>, <code>cancel</code>, <code>status</code>, <code>details</code> structured like professional DVCS tools.
-    </li>
-    <li style="padding:10px; border-left:4px solid #1a237e;">
-      <strong>ACID compliant MySQL backend:</strong>
-      clean transactions, rollback safety, data integrity.
-    </li>
-    <li style="padding:10px; border-left:4px solid #1a237e;">
-      <strong>Dynamic schema:</strong>
-      Auto creates <code>buses</code>, <code>routes</code>, <code>berth</code>, <code>bookings</code>.
-    </li>
-    <li style="padding:10px; border-left:4px solid #1a237e;">
-      <strong>Real time interactions:</strong>
-      live seat counts, immediate commit and feedback.
-    </li>
-    <li style="padding:10px; border-left:4px solid #1a237e;">
-      <strong>Modular codebase:</strong>
-      separated into <code>core</code>, <code>models</code> for future evolution.
-    </li>
-    <li style="padding:10px; border-left:4px solid #1a237e;">
-      <strong>Quality toolchain:</strong>
-      unit tests + formatting + GitHub Actions CI.
-    </li>
-  </ul>
-</section>
+https://img.shields.io/badge/Python-3.x-blue
+![MySQL](httpsields.io/badge/MySQL-Database-orange
+![License](https://img.shields.io/badge/License-MIT-
+## Overview
 
-<section style="max-width:800px; margin:40px auto; padding:0 20px;">
-  <h2> More Features & Innovation</h2>
-  <ul>
-    <li>Colorized CLI output with ANSI cues for clear success/error states.</li>
-    <li>Fuzzy logic help: Auto suggests commands when typoed.</li>
-    <li>Idempotent operations via unique trip hashes to avoid duplicate bookings.</li>
-    <li>Debug mode to print SQL and transaction logs.</li>
-    <li>Future ready: supports extension via web UI.</li>
-  </ul>
-</section>
+BUZZ is a command line Bus Ticket Booking System that allows users to browse available buses, view routes and manage ticket reservations using a MySQL database backend.
+
+Developed as an educational project, BUZZ demonstrates the fundamentals of:
+
+- Python application development
+- MySQL database integration
+- SQL query execution
+- CRUD operations
+- Reservation management workflows
+- Data persistence
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Python-blue?style=flat-square" alt="Language">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-</p>
+## Features
+
+- Bus Management
+- Booking Workflow
+- Route Management
+- Database Integration
 
 ---
+
+## Technology Stack
+
+### Backend
+
+- Python 3
+
+### Database
+
+- MySQL
+
+### Database Operations
+
+- SQL
+
+### Execution Mode
+
+- Command Line Interface (CLI)
+
+
+---
+
+## System Architecture
+
+```text
++------------------+
+|  User Interface  |
+|      (CLI)       |
++--------+---------+
+         |
+         v
++------------------+
+| Business Logic   |
+|  Python Modules  |
++--------+---------+
+         |
+         v
++------------------+
+|   MySQL Layer    |
+|  SQL Queries     |
++--------+---------+
+         |
+         v
++------------------+
+|    Database      |
+| Booking Records  |
++------------------+
+```
+
+## Learning Outcomes
+
+This project was built to explore and understand:
+
+- Relational database design
+- SQL schema creation
+- Python-MySQL connectivity
+- Data storage and retrieval
+- Reservation system workflows
+- Modular application development
+
+---
+
+## Future Roadmap
+
+Planned improvements include:
+
+- Functional Enhancements
+- Improved Modularization
+- Web based Front End
+
+---
+
+## Repository Structure
+
+```text
+buzz/
+│
+├── src/
+│   └── buzz/
+│       ├── main.py
+│       ├── booking.py
+│       ├── buses.py
+│       ├── locations.py
+│       └── database.py
+│
+├── sql/
+│   └── schema.sql
+│
+├── tests/
+│   ├── test_booking.py
+│   └── test_database.py
+│
+├── docs/
+│   ├── architecture.md
+│   └── screenshots/
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+## Project Background
+
+BUZZ originated as a learning project aimed at understanding how booking systems interact with databases and how transactional workflows can be implemented using Python and MySQL.
+
+The project focuses on core software engineering concepts such as database integration, structured data management, and user interaction through a command-line interface.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star.
