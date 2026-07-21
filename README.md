@@ -1,4 +1,4 @@
-# A Python and MySQL based Bus Ticket Booking System
+# Bus Ticket Booking System
 
 ## Overview
 
