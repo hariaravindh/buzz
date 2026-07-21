@@ -1,6 +1,4 @@
-# BUZZ 🚌
-
-> A Python and MySQL based Bus Ticket Booking System built to demonstrate database driven application design, ticket reservation workflows and command-line application development.
+# A Python and MySQL based Bus Ticket Booking System
 
 ## Overview
 
